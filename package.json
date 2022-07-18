@@ -1,0 +1,29 @@
+{
+  "name": "electricity-management-app",
+  "version": "1.0.0",
+  "description": "Elelctricity bill management app which manages bill record for a house",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "electricity",
+    "bill",
+    "management"
+  ],
+  "author": "Jatin Gambhir",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^13.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.19",
+    "request": "^2.53.0"
+  }
+}
